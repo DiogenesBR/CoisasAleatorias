@@ -1,0 +1,50 @@
+Tilesheet information:
+
+Tile size                 •  8px × 8px
+Space between tiles       •  1px × 1px
+---
+Total tiles (horizontal)  •  5 tiles
+Total tiles (vertical)    •  5 tiles
+---
+Total tiles in sheet      •  25 tiles
+
+Descricão para IA:
+
+Padrão de cores:
+- Parede clara.
+- Fundo escuro.
+
+Linha 1: Bordas e Conectores Superiores
+- Parede Canto Superior Esquerdo: Parede em L, Conexões com outras paredes ao Sul e Leste.
+- Parede Borda Superior: Parede superior, Conexões ao Oeste e Leste.
+- Parede Canto Superior Direito: Parede em L, Conexões ao Oeste e Sul.
+- Parede Conector T Vertical: Conexão de paredes de Norte, Sul e Leste.
+- Parede Conector T Vertical Invertido: Conexão de paredes de Norte, Sul e Oeste.
+
+Linha 2: Bordas e Estruturas Médias
+- Parede Lateral Esquerda: Parede Lateral, Conexões ao Norte e Sul.
+- Parede em Cruz: Conexão de paredes ao norte, sul, leste e oeste.
+- Parede Lateral Direita: Parede Lateral, Conexões ao Norte e Sul.
+- Parede Conector T Horizontal: Conexão de paredes de Sul, Oeste e Leste.
+- Parede Conector T Horizontal Invertido: Conexão de paredes de Norte, Oeste e Leste.
+
+Linha 3: Bordas Inferiores e Tiles de Preenchimento
+- Parede Canto Inferior Esquerdo: Parede em L, Conexões ao Norte e Oeste.
+- Parede Inferior: Parede Inferior, Conexões ao Leste e Oeste
+- Parede Canto Inferior Direito: Parede em L, Conexões ao Norte e Oeste.
+- Bloco Pequeno Centrado: Uma parede menor dentro do tile (pode ser um pilar ou obstáculo).
+- Tile Vazio: Pode ser um piso, ou região fora do mapa.
+
+Linha 4: Marcadores de Cor e Ícones de Perigo
+- Tile de marcação A: Marcador genérico (comum para representar o jogador ou um objetivo importante).
+- Porta Horizontal Aberta: Parede com uma porta aberta horizontal, Conexões ao Oeste e Leste.
+- Porta Vertical Aberta: Parede com uma porta aberta vertical, Conexões ao Norte e Sul.
+- Ícone de Caveira: Representa um inimigo, chefe (boss) ou área de perigo mortal.
+- Ícone de Casa: Geralmente indica a entrada da dungeon, ou um local de descanso (safe zone).
+
+Linha 5: Marcadores de Eventos e Portais
+- Tile de marcação B: Marcador genérico (comum para representar o jogador ou um objetivo importante).
+- Porta Horizontal Fechada: Parede com uma porta fechada horizontal, Conexões ao Oeste e Leste.
+- Porta Vertical Fechada: Parede com uma porta fechada vertical, Conexões ao Norte e Sul.
+- Ícone "S": Pode representar um save point, uma escada (stairs).
+- Ícone de "X": Pode representar um tesouro, local de interesse ou um caminho bloqueado.
